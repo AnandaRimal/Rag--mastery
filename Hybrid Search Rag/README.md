@@ -1,6 +1,6 @@
 # 🔍 Hybrid Search RAG (Retrieval-Augmented Generation)
 
-![Hybrid Search Architecture](images/hybrid_and_rerank.png)
+![Hybrid Search Architecture](../images/hybrid_and_rerank.png)
 
 ## 📋 Table of Contents
 - [Overview](#overview)
