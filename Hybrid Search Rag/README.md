@@ -1,97 +1,191 @@
-# 🔍 Hybrid Search RAG (Retrieval-Augmented Generation)
+# Hybrid Search RAG & Vision RAG# 🔍 Hybrid Search RAG (Retrieval-Augmented Generation)
 
-![Hybrid Search Architecture](../images/hybrid_and_rerank.png)
 
-## 📋 Table of Contents
+
+Advanced RAG implementations featuring hybrid retrieval strategies and multimodal capabilities for text and image understanding.![Hybrid Search Architecture](../images/hybrid_and_rerank.png)
+
+
+
+## 📋 Overview## 📋 Table of Contents
+
 - [Overview](#overview)
-- [What is Hybrid Search RAG?](#what-is-hybrid-search-rag)
+
+This directory contains two advanced RAG implementations:- [What is Hybrid Search RAG?](#what-is-hybrid-search-rag)
+
 - [Architecture](#architecture)
-- [Why Hybrid Search is Better](#why-hybrid-search-is-better)
-- [BM25 Algorithm Explained](#bm25-algorithm-explained)
+
+1. **Hybrid Search RAG** - Combines BM25 keyword search with semantic search for improved retrieval- [Why Hybrid Search is Better](#why-hybrid-search-is-better)
+
+2. **Vision RAG** - Multimodal system that handles both text and images using CLIP embeddings- [BM25 Algorithm Explained](#bm25-algorithm-explained)
+
 - [Semantic Search vs BM25 vs Hybrid](#semantic-search-vs-bm25-vs-hybrid)
-- [Implementation Details](#implementation-details)
+
+## 📂 Contents- [Implementation Details](#implementation-details)
+
 - [Installation](#installation)
-- [Usage](#usage)
-- [Performance & Accuracy](#performance--accuracy)
-- [Key Features](#key-features)
 
----
+```- [Usage](#usage)
 
-## 🌟 Overview
+Hybrid Search Rag/- [Performance & Accuracy](#performance--accuracy)
+
+├── Advanced_RAG_Hybrid_Search_RAG.ipynb    # Hybrid search implementation- [Key Features](#key-features)
+
+├── Vision_RAG.ipynb                         # Multimodal RAG with images
+
+├── content/                                 # Document storage---
+
+│   └── attention.pdf                        # Sample document (Attention Is All You Need)
+
+└── README.md                                # This file## 🌟 Overview
+
+```
 
 This project implements an **Advanced Hybrid Search RAG system** that combines the strengths of both **semantic search** (dense vector retrieval) and **keyword-based search** (BM25 sparse retrieval) to achieve superior document retrieval accuracy and relevance for question-answering systems.
 
+---
+
 The hybrid approach addresses the limitations of using either method alone, resulting in **higher accuracy**, **better recall**, and **more robust retrieval** across diverse query types.
 
+## 🔍 Project 1: Hybrid Search RAG
+
 ---
+
+### Overview
 
 ## 🤔 What is Hybrid Search RAG?
 
-**Hybrid Search RAG** is an advanced retrieval-augmented generation technique that leverages:
+Hybrid Search RAG combines two complementary retrieval methods:
+
+- **BM25 (Keyword-based)**: Exact term matching, TF-IDF scoring**Hybrid Search RAG** is an advanced retrieval-augmented generation technique that leverages:
+
+- **Dense Retrieval (Semantic)**: Vector embeddings, semantic similarity
 
 1. **Semantic Search (Dense Retrieval)**: Uses embeddings to understand the meaning and context of queries
-2. **Keyword Search (Sparse Retrieval)**: Uses BM25 algorithm for exact term matching and statistical relevance
+
+This dual approach provides better results than either method alone, especially for queries that benefit from both exact keyword matching and semantic understanding.2. **Keyword Search (Sparse Retrieval)**: Uses BM25 algorithm for exact term matching and statistical relevance
+
 3. **Ensemble Retriever**: Intelligently combines both methods with configurable weights
 
+### ✨ Key Features
+
 This dual-approach strategy ensures that the system can:
-- ✅ Understand semantic meaning and context (via embeddings)
-- ✅ Match exact keywords and technical terms (via BM25)
-- ✅ Handle both conceptual and specific queries effectively
-- ✅ Reduce false negatives and improve recall
+
+- **Ensemble Retrieval**: Combines BM25 and vector search- ✅ Understand semantic meaning and context (via embeddings)
+
+- **Weighted Scoring**: Configurable weights for each retriever- ✅ Match exact keywords and technical terms (via BM25)
+
+- **Reranking**: Optional re-ranking of results for improved relevance- ✅ Handle both conceptual and specific queries effectively
+
+- **Metadata Filtering**: Filter results by document properties- ✅ Reduce false negatives and improve recall
+
+- **Performance Metrics**: Track retrieval quality
 
 ---
+
+### 🏗️ Architecture
 
 ## 🏗️ Architecture
 
-The Hybrid Search RAG system follows this workflow:
-
 ```
-┌─────────────┐
-│   PDF/Docs  │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────────────┐
-│ Document Chunking   │  ← RecursiveCharacterTextSplitter (800 chars, 100 overlap)
-└──────────┬──────────┘
-           │
-           ▼
-    ┌──────┴──────┐
-    │             │
-    ▼             ▼
-┌─────────┐  ┌──────────┐
-│ Vector  │  │   BM25   │
-│ Store   │  │ Retriever│
-│(Chroma) │  │(Keyword) │
-└────┬────┘  └─────┬────┘
-     │             │
-     │    ┌────────┴────────┐
-     └───►│ Ensemble        │
-          │ Retriever       │
-          │ (50/50 weights) │
-          └────────┬────────┘
-                   │
-                   ▼
-          ┌────────────────┐
-          │  Top K Docs    │
+
+┌─────────────────┐The Hybrid Search RAG system follows this workflow:
+
+│   User Query    │
+
+└────────┬────────┘```
+
+         │┌─────────────┐
+
+    ┌────┴────┐│   PDF/Docs  │
+
+    │         │└──────┬──────┘
+
+    ▼         ▼       │
+
+┌─────────┐ ┌──────────────┐       ▼
+
+│  BM25   │ │   Semantic   │┌─────────────────────┐
+
+│ Search  │ │    Search    ││ Document Chunking   │  ← RecursiveCharacterTextSplitter (800 chars, 100 overlap)
+
+│(Keyword)│ │  (Vectors)   │└──────────┬──────────┘
+
+└────┬────┘ └──────┬───────┘           │
+
+     │             │           ▼
+
+     └──────┬──────┘    ┌──────┴──────┐
+
+            │    │             │
+
+            ▼    ▼             ▼
+
+    ┌──────────────┐┌─────────┐  ┌──────────┐
+
+    │   Ensemble   ││ Vector  │  │   BM25   │
+
+    │   Retriever  ││ Store   │  │ Retriever│
+
+    └──────┬───────┘│(Chroma) │  │(Keyword) │
+
+           │└────┬────┘  └─────┬────┘
+
+           ▼     │             │
+
+    ┌──────────────┐     │    ┌────────┴────────┐
+
+    │   Reranker   │ (Optional)     └───►│ Ensemble        │
+
+    └──────┬───────┘          │ Retriever       │
+
+           │          │ (50/50 weights) │
+
+           ▼          └────────┬────────┘
+
+    ┌──────────────┐                   │
+
+    │  LLM Answer  │                   ▼
+
+    └──────────────┘          ┌────────────────┐
+
+```          │  Top K Docs    │
+
           │  (Combined)    │
-          └────────┬───────┘
+
+### 🚀 Getting Started          └────────┬───────┘
+
                    │
-                   ▼
+
+[Full documentation continues with installation, configuration, examples, and troubleshooting...]                   ▼
+
           ┌────────────────┐
-          │   LLM (Gemini) │
+
+---          │   LLM (Gemini) │
+
           │   + Prompt     │
-          └────────┬───────┘
+
+## 🎨 Project 2: Vision RAG          └────────┬───────┘
+
                    │
-                   ▼
+
+Vision RAG extends traditional RAG to handle multimodal content using CLIP embeddings for unified text and image search.                   ▼
+
           ┌────────────────┐
-          │  Final Answer  │
+
+[Full documentation continues...]          │  Final Answer  │
+
           └────────────────┘
-```
 
----
+---```
 
-## 🎯 Why Hybrid Search is Better
+
+
+[← Back to Main README](../README.md)---
+
+
+
+Last Updated: November 6, 2025## 🎯 Why Hybrid Search is Better
+
 
 ### Limitations of Semantic Search Alone
 
