@@ -10,96 +10,34 @@ A comprehensive collection of production-ready RAG implementations showcasing te
 
 ---
 
-## 🏗️ Complete RAG Architecture
+## 📋 Table of Contents
+
+- [RAG Architecture](#-rag-architecture)
+- [Understanding RAG Components](#-understanding-rag-components)
+- [What is RAG?](#-what-is-rag)
+- [Why RAG Makes AI Powerful](#-why-rag-makes-ai-powerful)
+- [RAG Techniques Overview](#-rag-techniques-overview)
+- [Projects in This Repository](#-projects-in-this-repository)
+- [Environment Setup](#-environment-setup)
+- [Quick Start](#-quick-start)
+- [Technologies Used](#-technologies-used)
+- [Contributing](#-contributing)
+
+---
+
+## 🏗️ RAG Architecture
 
 ![RAG Architecture - Complete Pipeline](./images/Screenshot%20(30).png)
 
-*The complete RAG pipeline from document ingestion to generation, featuring multi-stage retrieval, reranking, and context augmentation. This architecture diagram illustrates all 7 stages implemented in this repository.*
+*The complete RAG pipeline from document ingestion to generation, featuring multi-stage retrieval, reranking, and context augmentation. This architecture diagram illustrates all 7 stages of a production-ready RAG system.*
 
 ---
 
-## 📋 Table of Contents
+## 🔧 Understanding RAG Components
 
-- [What is RAG?](#what-is-rag)
-- [Why RAG Makes AI Powerful](#why-rag-makes-ai-powerful)
-- [RAG Architecture Explained](#rag-architecture-explained)
-- [RAG Techniques Overview](#rag-techniques-overview)
-- [Projects in This Repository](#projects-in-this-repository)
-- [Environment Setup](#environment-setup)
-- [Quick Start](#quick-start)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
+The diagram above illustrates the sophisticated multi-stage architecture that makes RAG systems powerful and accurate. Let's break down each component in detail:
 
----
-
-## 🤔 What is RAG?
-
-**Retrieval-Augmented Generation (RAG)** is a revolutionary AI architecture that enhances Large Language Models (LLMs) by giving them access to external knowledge sources in real-time. Instead of relying solely on training data, RAG systems dynamically retrieve relevant information to generate more accurate, up-to-date, and contextually appropriate responses.
-
-### The Core Problem RAG Solves
-
-Traditional LLMs face three critical limitations:
-
-1. **Knowledge Cutoff**: Training data becomes outdated
-2. **Hallucination**: Models generate plausible but incorrect information
-3. **Domain Specificity**: Lack of specialized knowledge for enterprise use cases
-
-**RAG solves these by:**
-- ✅ Providing real-time access to current information
-- ✅ Grounding responses in verifiable sources
-- ✅ Enabling domain-specific expertise through custom knowledge bases
-
----
-
-## 💪 Why RAG Makes AI Powerful
-
-### The Power Multiplier Effect
-
-RAG transforms AI from **static knowledge holders** to **dynamic knowledge synthesizers**. Here's how:
-
-#### 1. **Real-Time Knowledge Updates**
-```
-Traditional LLM: "I don't know about events after 2023"
-RAG-Enhanced LLM: "Based on the latest documentation from today..."
-```
-
-#### 2. **Verifiable Answers**
-```
-Traditional LLM: "The company revenue is approximately $50M" [hallucinated]
-RAG-Enhanced LLM: "According to Q3 2024 earnings report, revenue was $47.3M" [sourced]
-```
-
-#### 3. **Domain Expertise at Scale**
-```
-Traditional LLM: Generic medical advice
-RAG-Enhanced LLM: Answers grounded in specific medical literature, research papers, and clinical guidelines
-```
-
-#### 4. **Cost-Effective Customization**
-- **Without RAG**: Fine-tune entire model ($100K+, months of work)
-- **With RAG**: Update knowledge base ($0, minutes)
-
-### The Numbers Speak
-
-| Metric | Traditional LLM | RAG-Enhanced LLM | Improvement |
-|--------|----------------|------------------|-------------|
-| **Factual Accuracy** | 65-75% | 90-98% | +25-33% |
-| **Hallucination Rate** | 15-25% | 2-5% | -80-87% |
-| **Update Cost** | $100K+ (fine-tuning) | $0 (data update) | -100% |
-| **Response Time** | 2-3 seconds | 3-5 seconds | Acceptable trade-off |
-| **Domain Accuracy** | 60-70% | 95-99% | +35-39% |
-
----
-
-## 🏗️ RAG Architecture Explained
-
-![RAG Architecture](./images/Screenshot%20(30).png)
-
-### Understanding the Complete RAG Pipeline
-
-The diagram above illustrates the sophisticated multi-stage architecture that makes RAG systems powerful and accurate. Let's break down each component:
-
-#### **Stage 1: Data Ingestion & Preprocessing** 📥
+### **Stage 1: Data Ingestion & Preprocessing** 📥
 
 ```
 Documents → Chunking → Embedding → Vector Store
@@ -295,6 +233,65 @@ Augmented Prompt → LLM → Response → Post-processing
        'latency': 3.2  # seconds
    }
    ```
+
+---
+
+## 🤔 What is RAG?
+
+**Retrieval-Augmented Generation (RAG)** is a revolutionary AI architecture that enhances Large Language Models (LLMs) by giving them access to external knowledge sources in real-time. Instead of relying solely on training data, RAG systems dynamically retrieve relevant information to generate more accurate, up-to-date, and contextually appropriate responses.
+
+### The Core Problem RAG Solves
+
+Traditional LLMs face three critical limitations:
+
+1. **Knowledge Cutoff**: Training data becomes outdated
+2. **Hallucination**: Models generate plausible but incorrect information
+3. **Domain Specificity**: Lack of specialized knowledge for enterprise use cases
+
+**RAG solves these by:**
+- ✅ Providing real-time access to current information
+- ✅ Grounding responses in verifiable sources
+- ✅ Enabling domain-specific expertise through custom knowledge bases
+
+---
+
+## 💪 Why RAG Makes AI Powerful
+
+### The Power Multiplier Effect
+
+RAG transforms AI from **static knowledge holders** to **dynamic knowledge synthesizers**. Here's how:
+
+#### 1. **Real-Time Knowledge Updates**
+```
+Traditional LLM: "I don't know about events after 2023"
+RAG-Enhanced LLM: "Based on the latest documentation from today..."
+```
+
+#### 2. **Verifiable Answers**
+```
+Traditional LLM: "The company revenue is approximately $50M" [hallucinated]
+RAG-Enhanced LLM: "According to Q3 2024 earnings report, revenue was $47.3M" [sourced]
+```
+
+#### 3. **Domain Expertise at Scale**
+```
+Traditional LLM: Generic medical advice
+RAG-Enhanced LLM: Answers grounded in specific medical literature, research papers, and clinical guidelines
+```
+
+#### 4. **Cost-Effective Customization**
+- **Without RAG**: Fine-tune entire model ($100K+, months of work)
+- **With RAG**: Update knowledge base ($0, minutes)
+
+### The Numbers Speak
+
+| Metric | Traditional LLM | RAG-Enhanced LLM | Improvement |
+|--------|----------------|------------------|-------------|
+| **Factual Accuracy** | 65-75% | 90-98% | +25-33% |
+| **Hallucination Rate** | 15-25% | 2-5% | -80-87% |
+| **Update Cost** | $100K+ (fine-tuning) | $0 (data update) | -100% |
+| **Response Time** | 2-3 seconds | 3-5 seconds | Acceptable trade-off |
+| **Domain Accuracy** | 60-70% | 95-99% | +35-39% |
 
 ---
 
