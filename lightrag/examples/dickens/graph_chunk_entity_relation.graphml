@@ -1,0 +1,652 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d9" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d8" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d7" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d6" for="edge" attr.name="description" attr.type="string" />
+  <key id="d5" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Bill Gates">
+      <data key="d0">Bill Gates</data>
+      <data key="d1">person</data>
+      <data key="d2">Bill Gates is an influential technology entrepreneur and founder of Microsoft.</data>
+      <data key="d3">chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Larry Page">
+      <data key="d0">Larry Page</data>
+      <data key="d1">person</data>
+      <data key="d2">Larry Page is co-founder of Google along with Sergey Brin.</data>
+      <data key="d3">chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Sergey Brin">
+      <data key="d0">Sergey Brin</data>
+      <data key="d1">person</data>
+      <data key="d2">Sergey Brin is co-founder of Google alongside Larry Page.</data>
+      <data key="d3">chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Mark Zuckerberg">
+      <data key="d0">Mark Zuckerberg</data>
+      <data key="d1">person</data>
+      <data key="d2">Mark Zuckerberg is the founder and CEO of Facebook.</data>
+      <data key="d3">chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="PayPal">
+      <data key="d0">PayPal</data>
+      <data key="d1">organization</data>
+      <data key="d2">PayPal is a global financial technology company that facilitates online payments.&lt;SEP&gt;PayPal was a payment service that experienced significant growth and expansion during the late 1990s and early 2000s, revolutionizing online transactions.&lt;SEP&gt;PayPal was a payment service that experienced significant growth and expansion during the late 1990s and early 2000s.&lt;SEP&gt;PayPal was co-founded by Peter Thiel when he was still in college. It revolutionized online payments.</data>
+      <data key="d3">chunk-18c06dc8bdf3ab439dd3977736aa9cbe&lt;SEP&gt;chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Palantir">
+      <data key="d0">Palantir</data>
+      <data key="d1">organization</data>
+      <data key="d2">Palantir is a data analysis software company known for its use in intelligence, law enforcement and defense.</data>
+      <data key="d3">chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Facebook">
+      <data key="d0">Facebook</data>
+      <data key="d1">organization</data>
+      <data key="d2">Facebook is one of the largest social media platforms globally.&lt;SEP&gt;Peter Thiel was an early investor in Facebook, contributing to its growth and success.</data>
+      <data key="d3">chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="SpaceX">
+      <data key="d0">SpaceX</data>
+      <data key="d1">organization</data>
+      <data key="d2">Elon Musk, a co-founder of PayPal who later invested in Facebook alongside Peter Thiel, founded SpaceX which is involved in aerospace research and development.&lt;SEP&gt;SpaceX is an aerospace manufacturer and space transport services company founded by Elon Musk.</data>
+      <data key="d3">chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Zero to One: The Future of Progress">
+      <data key="d0">Zero to One: The Future of Progress</data>
+      <data key="d1">category</data>
+      <data key="d2">The book 'Zero to One' by Peter Thiel explores ideas about entrepreneurship and innovation in technology.</data>
+      <data key="d3">chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Peter Thiel">
+      <data key="d0">Peter Thiel</data>
+      <data key="d1">person</data>
+      <data key="d2">Peter Thiel is an American entrepreneur, investor, and philanthropist known for his views on innovation and startups.</data>
+      <data key="d3">chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="ZERO TO ONE">
+      <data key="d0">ZERO TO ONE</data>
+      <data key="d1">category</data>
+      <data key="d2">This is a book title discussing the future of progress and technology.</data>
+      <data key="d3">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="The Future">
+      <data key="d0">The Future</data>
+      <data key="d1">event</data>
+      <data key="d2">The future in this context refers to advancements or changes expected over time.</data>
+      <data key="d3">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Progress">
+      <data key="d0">Progress</data>
+      <data key="d1">category</data>
+      <data key="d2">Progress can mean horizontal or vertical development, with implications for society.</data>
+      <data key="d3">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Horizontal Progress">
+      <data key="d0">Horizontal Progress</data>
+      <data key="d1">category</data>
+      <data key="d2">Horizontal progress is characterized by copying and scaling existing solutions.</data>
+      <data key="d3">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Vertical Progress">
+      <data key="d0">Vertical Progress</data>
+      <data key="d1">category</data>
+      <data key="d2">Vertical progress involves creating new things that have not been done before.</data>
+      <data key="d3">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Globalization">
+      <data key="d0">Globalization</data>
+      <data key="d1">category</data>
+      <data key="d2">Globalization represents the spread of ideas, technologies, or practices across countries.</data>
+      <data key="d3">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Technology">
+      <data key="d0">Technology</data>
+      <data key="d1">category</data>
+      <data key="d2">Technology encompasses advancements made through innovation and development.</data>
+      <data key="d3">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Silicon Valley">
+      <data key="d0">Silicon Valley</data>
+      <data key="d1">organization</data>
+      <data key="d2">Silicon Valley is known as a hub for technology and innovation.</data>
+      <data key="d3">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="China">
+      <data key="d0">China</data>
+      <data key="d1">geo</data>
+      <data key="d2">China acts as an example of globalization by adopting technologies from developed nations.</data>
+      <data key="d3">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="United States">
+      <data key="d0">United States</data>
+      <data key="d1">geo</data>
+      <data key="d2">The United States, in contrast to China, has been the originator of many technological advancements.</data>
+      <data key="d3">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Startup Thinking">
+      <data key="d0">Startup Thinking</data>
+      <data key="d1">category</data>
+      <data key="d2">This is a concept or book title that discusses innovation and progress through new ventures.</data>
+      <data key="d3">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Technology Development">
+      <data key="d0">Technology Development</data>
+      <data key="d1">category</data>
+      <data key="d2">The process of creating new technologies or innovations in various fields.</data>
+      <data key="d3">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Innovation">
+      <data key="d0">Innovation</data>
+      <data key="d1">category</data>
+      <data key="d2">Creative and original thinking, ideas, methods, products, etc., often resulting in improvements or advancements.</data>
+      <data key="d3">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="New Ventures">
+      <data key="d0">New Ventures</data>
+      <data key="d1">organization</data>
+      <data key="d2">Startups that are created with the intent of introducing new technologies or innovations into the market.</data>
+      <data key="d3">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Startups">
+      <data key="d0">Startups</data>
+      <data key="d1">category</data>
+      <data key="d2">Entrepreneurial organizations founded by a group of individuals to develop and implement innovative ideas.</data>
+      <data key="d3">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="organizations">
+      <data key="d0">organizations</data>
+      <data key="d1">organization</data>
+      <data key="d2">This text discusses various organizational concepts and principles in the context of startups, bureaucratic hierarchies, new companies, and Silicon Valley.&lt;SEP&gt;This text discusses various organizational concepts and principles related to startups.</data>
+      <data key="d3">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="person">
+      <data key="d0">person</data>
+      <data key="d1">person</data>
+      <data key="d2">Nietzsche is mentioned as having written about madness being a rule in groups.&lt;SEP&gt;The text does not mention specific individuals by name.</data>
+      <data key="d3">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="internet">
+      <data key="d0">internet</data>
+      <data key="d1">category</data>
+      <data key="d2">The internet plays a significant role in the text discussing its impact on companies, beliefs, and technological advancements.</data>
+      <data key="d3">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="1990s">
+      <data key="d0">1990s</data>
+      <data key="d1">geo</data>
+      <data key="d2">The 1990s are discussed in relation to global context, economic downturns, and technology boom and bust.</data>
+      <data key="d3">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="geo">
+      <data key="d0">geo</data>
+      <data key="d1">geo</data>
+      <data key="d2">The geographical context includes the United States, Silicon Valley, and global events affecting technology industry</data>
+      <data key="d3">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="event">
+      <data key="d0">event</data>
+      <data key="d1">event</data>
+      <data key="d2">Events such as the fall of the Berlin Wall are mentioned for their historical context.</data>
+      <data key="d3">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="category">
+      <data key="d0">category</data>
+      <data key="d1">category</data>
+      <data key="d2">Categories like music and technology innovation are discussed in the text</data>
+      <data key="d3">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="'98">
+      <data key="d0">'98</data>
+      <data key="d1">category</data>
+      <data key="d2">The text refers to a specific year '98 which was when each company's stock quadrupled.</data>
+      <data key="d3">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Fed chairman Alan Greenspan">
+      <data key="d0">Fed chairman Alan Greenspan</data>
+      <data key="d1">person</data>
+      <data key="d2">Alan Greenspan is associated with predicting the rise of asset values and warning about irrational exuberance.</data>
+      <data key="d3">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="irrational exuberance">
+      <data key="d0">irrational exuberance</data>
+      <data key="d1">category</data>
+      <data key="d2">Greenspan used this term to describe the condition where asset values were escalated due to excessive optimism.</data>
+      <data key="d3">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="asset values">
+      <data key="d0">asset values</data>
+      <data key="d1">category</data>
+      <data key="d2">This refers to the value of financial investments which were escalating due to irrational exuberance.</data>
+      <data key="d3">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="irrationality">
+      <data key="d0">irrationality</data>
+      <data key="d1">category</data>
+      <data key="d2">Describes the perceived or actual lack of rational decision-making among tech investors.</data>
+      <data key="d3">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="East Asian financial crises">
+      <data key="d0">East Asian financial crises</data>
+      <data key="d1">event</data>
+      <data key="d2">A series of financial crises occurred in East Asia, specifically Thailand, Indonesia and South Korea.</data>
+      <data key="d3">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Russian ruble crisis">
+      <data key="d0">Russian ruble crisis</data>
+      <data key="d1">event</data>
+      <data key="d2">The Russian economy was hit hard with the devaluation of the ruble and defaulting on debt.</data>
+      <data key="d3">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Dow Jones Industrial Average">
+      <data key="d0">Dow Jones Industrial Average</data>
+      <data key="d1">organization</data>
+      <data key="d2">A major stock market index which significantly plummeted due to growing nervousness among American investors.</data>
+      <data key="d3">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="nation with 10,000 nukes">
+      <data key="d0">nation with 10,000 nukes</data>
+      <data key="d1">geo</data>
+      <data key="d2">Refers to the United States, highlighting its economic instability at that time.</data>
+      <data key="d3">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Europe">
+      <data key="d0">Europe</data>
+      <data key="d1">geo</data>
+      <data key="d2">The European economies are mentioned as doing no better than the US during this period.</data>
+      <data key="d3">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="multibillion-dollar intervention">
+      <data key="d0">multibillion-dollar intervention</data>
+      <data key="d1">organization</data>
+      <data key="d2">A large-scale intervention by G7 central bankers to support the euro currency.</data>
+      <data key="d3">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Old Economy">
+      <data key="d0">Old Economy</data>
+      <data key="d1">category</data>
+      <data key="d2">The term used to describe traditional industries that were struggling with globalization challenges.</data>
+      <data key="d3">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="New Economy of internet">
+      <data key="d0">New Economy of internet</data>
+      <data key="d1">category</data>
+      <data key="d2">This refers to technology and e-commerce sectors expected to lead economic growth.</data>
+      <data key="d3">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Wall Street Journal">
+      <data key="d0">Wall Street Journal</data>
+      <data key="d1">organization</data>
+      <data key="d2">The Wall Street Journal published articles praising PayPal's viral growth, which contributed to increased interest in the company.</data>
+      <data key="d3">chunk-18c06dc8bdf3ab439dd3977736aa9cbe</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="NASDAQ">
+      <data key="d0">NASDAQ</data>
+      <data key="d1">category</data>
+      <data key="d2">The NASDAQ stock exchange had a peak at 5,048 during the dot-com bubble and crashed sharply by mid-April 2000.</data>
+      <data key="d3">chunk-18c06dc8bdf3ab439dd3977736aa9cbe</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Viral Growth">
+      <data key="d0">Viral Growth</data>
+      <data key="d1">concept</data>
+      <data key="d2">Viral growth refers to rapid expansion through word-of-mouth or online interactions, which was used effectively by PayPal.</data>
+      <data key="d3">chunk-18c06dc8bdf3ab439dd3977736aa9cbe</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="$100 million">
+      <data key="d0">$100 million</data>
+      <data key="d1">money amount</data>
+      <data key="d2">An investment of $100 million from investors helped fund PayPal's growth and operations.</data>
+      <data key="d3">chunk-18c06dc8bdf3ab439dd3977736aa9cbe</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="South Korean firm">
+      <data key="d0">South Korean firm</data>
+      <data key="d1">organization</data>
+      <data key="d2">A South Korean firm invested $5 million in PayPal without a prior negotiation or deal signing, reflecting the frantic fundraising environment.</data>
+      <data key="d3">chunk-18c06dc8bdf3ab439dd3977736aa9cbe</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="dot-com bubble">
+      <data key="d0">dot-com bubble</data>
+      <data key="d1">category</data>
+      <data key="d2">The dot-com bubble refers to an economic phenomenon characterized by the rapid rise of internet-based businesses in the late 1990s followed by a significant market correction.</data>
+      <data key="d3">chunk-18c06dc8bdf3ab439dd3977736aa9cbe</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="NASDQ">
+      <data key="d0">NASDQ</data>
+      <data key="d1">organization</data>
+      <data key="d2">The NASDAQ is a stock exchange that experienced volatility during the dot-com bubble, with valuations reaching and subsequently crashing.</data>
+      <data key="d3">chunk-18c06dc8bdf3ab439dd3977736aa9cbe</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="opposite ideas">
+      <data key="d0">opposite ideas</data>
+      <data key="d1">category</data>
+      <data key="d2">The text discusses contrasting views or opposing ideas.</data>
+      <data key="d3">chunk-a9420e8d8be64ac2377f22a32a8be3d3</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Bill Gates, Larry Page, Sergey Brin, Mark Zuckerberg">
+      <data key="d0">Bill Gates, Larry Page, Sergey Brin, Mark Zuckerberg</data>
+      <data key="d3">chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d2">These individuals are examples of successful entrepreneurs in technology whose companies pioneered new technologies rather than copying existing models.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="PayPal, Palantir">
+      <data key="d0">PayPal, Palantir</data>
+      <data key="d3">chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d2">Both PayPal and Palantir were founded by the co-founder of Facebook, Mark Zuckerberg.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="organization">
+      <data key="d0">organization</data>
+      <data key="d3">chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d2">Both PayPal and Palantir were founded by the co-founder of Facebook, Mark Zuckerberg.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Berlin Wall">
+      <data key="d0">Berlin Wall</data>
+      <data key="d3">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d2">The fall of the Berlin Wall is an event that starts a period of euphoria which later transitions into malaise and pessimism</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="United States Recession">
+      <data key="d0">United States Recession</data>
+      <data key="d3">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d2">A recession in the United States impacts economic recovery, unemployment, and manufacturing sector.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Nirvana">
+      <data key="d0">Nirvana</data>
+      <data key="d3">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d2">Music band Nirvana reflects cultural fascination that is not directly related to hope or confidence</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Silicon Valley Sluggishness">
+      <data key="d0">Silicon Valley Sluggishness</data>
+      <data key="d3">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d2">Silicon Valley tech sector felt sluggish in contrast with Japan's semiconductor dominance</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Mosaic Browser">
+      <data key="d0">Mosaic Browser</data>
+      <data key="d3">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d2">The Mosaic browser is an early web browser that marked a shift towards regular people accessing internet services.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="Netscape Navigator">
+      <data key="d0">Netscape Navigator</data>
+      <data key="d3">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d2">Netscape Navigator's quick growth and successful IPO reflect the booming tech market in late 1990s</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <node id="$5 million">
+      <data key="d0">$5 million</data>
+      <data key="d3">chunk-18c06dc8bdf3ab439dd3977736aa9cbe</data>
+      <data key="d2">A South Korean firm wired PayPal $5 million without negotiation or documents due to the fast fundraising environment.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+    </node>
+    <edge source="PayPal" target="Peter Thiel">
+      <data key="d5">8.0</data>
+      <data key="d6">The creation and success of PayPal during Peter Thiel's involvement signifies his entrepreneurial acumen and innovation skills.</data>
+      <data key="d7">entrepreneurship, founding, online payments</data>
+      <data key="d8">chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="PayPal" target="Viral Growth">
+      <data key="d5">9.0</data>
+      <data key="d6">PayPal experienced viral growth through its referral program and $10 rewards for new customers and referrals.</data>
+      <data key="d7">growth strategy, customer acquisition</data>
+      <data key="d8">chunk-18c06dc8bdf3ab439dd3977736aa9cbe</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="PayPal" target="$5 million">
+      <data key="d5">7.0</data>
+      <data key="d6">A South Korean firm wired PayPal $5 million without negotiation or documents due to the fast fundraising environment.</data>
+      <data key="d7">unplanned funding round, speculative investment</data>
+      <data key="d8">chunk-18c06dc8bdf3ab439dd3977736aa9cbe</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="PayPal" target="dot-com bubble">
+      <data key="d5">1.0</data>
+      <data key="d6">During the dot-com boom, PayPal grew rapidly as part of the wave of technology companies emerging in this period.</data>
+      <data key="d7">internet business growth, economic expansion" &lt;4</data>
+      <data key="d8">chunk-18c06dc8bdf3ab439dd3977736aa9cbe</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="PayPal" target="NASDAQ">
+      <data key="d5">1.0</data>
+      <data key="d6">The success and valuation of PayPal were closely tied to NASDAQ market dynamics during its early years.</data>
+      <data key="d7">stock exchange relationship, market impact" &lt;3</data>
+      <data key="d8">chunk-18c06dc8bdf3ab439dd3977736aa9cbe</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Facebook" target="Peter Thiel">
+      <data key="d5">7.0</data>
+      <data key="d6">Through Peter Thiel's investment in Facebook, he supported the development of a platform that transformed social networking globally.</data>
+      <data key="d7">investment, growth, technology adoption</data>
+      <data key="d8">chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="SpaceX" target="Peter Thiel">
+      <data key="d5">6.0</data>
+      <data key="d6">The potential strategic connections between PayPal, Facebook investments and SpaceX could suggest his broader interest in technological advancement across different sectors.</data>
+      <data key="d7">diversified investment strategy, innovation</data>
+      <data key="d8">chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Horizontal Progress" target="Vertical Progress">
+      <data key="d5">7.0</data>
+      <data key="d6">Horizontal progress involves copying existing solutions whereas vertical progress requires creating something new. Horizontal progress is easier to visualize than vertical progress.</data>
+      <data key="d7">Types of Progress, Contrast</data>
+      <data key="d8">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Globalization" target="Technology">
+      <data key="d5">8.0</data>
+      <data key="d6">While globalization and technology are different modes of progress, they can coexist; they both promote change and development.</data>
+      <data key="d7">Modes of Progress, Coexistence</data>
+      <data key="d8">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="United States" target="Fed chairman Alan Greenspan">
+      <data key="d5">18.0</data>
+      <data key="d6">Greenspan's remarks were relevant to the US economy as well, given its significant impact on global markets and his position as Fed chairman.</data>
+      <data key="d7">global economic context, US-specific insights</data>
+      <data key="d8">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Startup Thinking" target="New Ventures">
+      <data key="d5">1.0</data>
+      <data key="d6">New ventures are essential for startup thinking as they apply this approach in their operations and strategies.</data>
+      <data key="d7">Ventures-Strategy Connection"|&gt;|&gt;7</data>
+      <data key="d8">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Technology Development" target="Innovation">
+      <data key="d5">1.0</data>
+      <data key="d6">Technology development often leads to innovation, as it involves creating new tools or methods that can be improved upon.</data>
+      <data key="d7">Development-Innovation Linkage"|&gt;|&gt;8</data>
+      <data key="d8">chunk-5b9e12e4a926562b0ea8b217be26c411</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="organizations" target="geo">
+      <data key="d5">8.0</data>
+      <data key="d6">The relationship between organizations and geographical locations is illustrated through Silicon Valley as a hub for tech startups.</data>
+      <data key="d7">location-influence, industry-geography</data>
+      <data key="d8">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="person" target="category">
+      <data key="d5">6.0</data>
+      <data key="d6">The relationship involves individuals like those in the music industry influencing cultural trends which indirectly impact technology innovation.</data>
+      <data key="d7">influencer-categories, cross-industry-influence</data>
+      <data key="d8">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="geo" target="United States Recession">
+      <data key="d5">9.0</data>
+      <data key="d6">A recession in the United States impacts economic recovery, unemployment, and manufacturing sector.</data>
+      <data key="d7">national economy, global context</data>
+      <data key="d8">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="event" target="Berlin Wall">
+      <data key="d5">8.0</data>
+      <data key="d6">The fall of the Berlin Wall is an event that starts a period of euphoria which later transitions into malaise and pessimism</data>
+      <data key="d7">historical event, geopolitical shift</data>
+      <data key="d8">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="category" target="Bill Gates, Larry Page, Sergey Brin, Mark Zuckerberg">
+      <data key="d5">8.0</data>
+      <data key="d6">These individuals are examples of successful entrepreneurs in technology whose companies pioneered new technologies rather than copying existing models.</data>
+      <data key="d7">entrepreneurship, technological innovation</data>
+      <data key="d8">chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="category" target="Nirvana">
+      <data key="d5">7.0</data>
+      <data key="d6">Music band Nirvana reflects cultural fascination that is not directly related to hope or confidence</data>
+      <data key="d7">popular culture, music industry</data>
+      <data key="d8">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="category" target="Mosaic Browser">
+      <data key="d5">7.0</data>
+      <data key="d6">The Mosaic browser is an early web browser that marked a shift towards regular people accessing internet services.</data>
+      <data key="d7">technological advancement, access to technology</data>
+      <data key="d8">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Fed chairman Alan Greenspan" target="irrational exuberance">
+      <data key="d5">18.0</data>
+      <data key="d6">Greenspan's statement about irrational exuberance was an insight into the condition affecting asset values during this period.</data>
+      <data key="d7">insight, prediction, explanation</data>
+      <data key="d8">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Fed chairman Alan Greenspan" target="East Asian financial crises">
+      <data key="d5">16.0</data>
+      <data key="d6">The East Asian crises were concurrent events that occurred around the time of Greenspan's 'irrational exuberance' warning.</data>
+      <data key="d7">concurrent events, economic impact</data>
+      <data key="d8">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Fed chairman Alan Greenspan" target="Russian ruble crisis">
+      <data key="d5">14.0</data>
+      <data key="d6">Greenspan's comment on irrational exuberance indirectly related to the Russian financial situation.</data>
+      <data key="d7">macroeconomic context, risk assessment</data>
+      <data key="d8">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Fed chairman Alan Greenspan" target="Dow Jones Industrial Average">
+      <data key="d5">16.0</data>
+      <data key="d6">The Dow's drop was influenced by growing nervousness about global economic instability mentioned in Greenspan's statement.</data>
+      <data key="d7">financial indicator, market sentiment</data>
+      <data key="d8">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Old Economy" target="New Economy of internet">
+      <data key="d5">16.0</data>
+      <data key="d6">The contrast between struggling traditional sectors and thriving tech companies set the backdrop for dot-com mania.</data>
+      <data key="d7">industrial comparison, market dynamics</data>
+      <data key="d8">chunk-d3a813ad96e128fa4b71e12713f55bd8</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="Wall Street Journal" target="$100 million">
+      <data key="d5">8.0</data>
+      <data key="d6">The Wall Street Journal’s endorsement was taken as an authoritative valuation by investors for PayPal's worth after they invested $100 million.</data>
+      <data key="d7">market validation, investment impact</data>
+      <data key="d8">chunk-18c06dc8bdf3ab439dd3977736aa9cbe</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="PayPal, Palantir" target="organization">
+      <data key="d5">7.0</data>
+      <data key="d6">Both PayPal and Palantir were founded by the co-founder of Facebook, Mark Zuckerberg.</data>
+      <data key="d7">co-founding, technology companies</data>
+      <data key="d8">chunk-7a14b0b881e785300ecbd6cb0d4ce440</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="organization" target="Silicon Valley Sluggishness">
+      <data key="d5">8.0</data>
+      <data key="d6">Silicon Valley tech sector felt sluggish in contrast with Japan's semiconductor dominance</data>
+      <data key="d7">industry performance, competitive landscape</data>
+      <data key="d8">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+    <edge source="organization" target="Netscape Navigator">
+      <data key="d5">9.0</data>
+      <data key="d6">Netscape Navigator's quick growth and successful IPO reflect the booming tech market in late 1990s</data>
+      <data key="d7">company growth, technological innovation</data>
+      <data key="d8">chunk-50d26244c2eac9961748fb44c9e9011e</data>
+      <data key="d9">unknown_source</data>
+    </edge>
+  </graph>
+</graphml>

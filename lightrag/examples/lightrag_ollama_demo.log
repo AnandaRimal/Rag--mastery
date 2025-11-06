@@ -1,0 +1,145 @@
+2025-11-06 13:42:49,379 - lightrag - INFO - Storage Finalization completed!
+2025-11-06 13:45:54,864 - lightrag - INFO - Created new empty graph
+2025-11-06 13:45:54,898 - lightrag - INFO - Process 251116 KV load full_docs with 0 records
+2025-11-06 13:45:54,900 - lightrag - INFO - Process 251116 KV load text_chunks with 0 records
+2025-11-06 13:45:54,902 - lightrag - INFO - Process 251116 KV load llm_response_cache with 0 records
+2025-11-06 13:45:54,903 - lightrag - INFO - Process 251116 doc status load doc_status with 0 records
+2025-11-06 13:46:05,893 - lightrag - INFO - Storage Initialization completed!
+2025-11-06 13:46:05,894 - lightrag - INFO - Storage Finalization completed!
+2025-11-06 14:06:43,122 - lightrag - INFO - Created new empty graph
+2025-11-06 14:06:43,138 - lightrag - INFO - Process 254892 KV load full_docs with 0 records
+2025-11-06 14:06:43,139 - lightrag - INFO - Process 254892 KV load text_chunks with 0 records
+2025-11-06 14:06:43,141 - lightrag - INFO - Process 254892 KV load llm_response_cache with 0 records
+2025-11-06 14:06:43,141 - lightrag - INFO - Process 254892 doc status load doc_status with 0 records
+2025-11-06 14:06:53,041 - lightrag - INFO - Inserting 1 records to doc_status
+2025-11-06 14:06:53,042 - lightrag - INFO - Process 254892 doc status writting 1 records to doc_status
+2025-11-06 14:06:53,043 - lightrag - INFO - Stored 1 new unique documents
+2025-11-06 14:06:53,044 - lightrag - INFO - Storage Initialization completed!
+2025-11-06 14:06:53,045 - lightrag - INFO - Processing 1 document(s) in 1 batches
+2025-11-06 14:06:53,045 - lightrag - INFO - Start processing batch 1 of 1.
+2025-11-06 14:06:53,521 - lightrag - INFO - Inserting 1 records to doc_status
+2025-11-06 14:06:53,523 - lightrag - INFO - Process 254892 doc status writting 1 records to doc_status
+2025-11-06 14:06:53,534 - lightrag - INFO - Inserting 6 to chunks
+2025-11-06 14:06:53,537 - lightrag - INFO - Inserting 1 records to full_docs
+2025-11-06 14:06:53,538 - lightrag - INFO - Inserting 6 records to text_chunks
+2025-11-06 14:07:47,881 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:08:04,512 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:08:22,948 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:08:44,648 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:09:04,078 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:09:06,170 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:14:38,193 - lightrag - ERROR - Failed to extract entities and relationships
+2025-11-06 14:14:38,194 - lightrag - ERROR - Failed to process document doc-b1fb54bb3a5b1ea5aa289b49d25b1898: 
+2025-11-06 14:14:38,196 - lightrag - INFO - Inserting 1 records to doc_status
+2025-11-06 14:14:38,196 - lightrag - INFO - Process 254892 doc status writting 1 records to doc_status
+2025-11-06 14:14:38,198 - lightrag - INFO - Process 254892 KV writting 1 records to full_docs
+2025-11-06 14:14:38,201 - lightrag - INFO - Process 254892 KV writting 6 records to text_chunks
+2025-11-06 14:14:38,202 - lightrag - INFO - Process 254892 KV writting 6 records to llm_response_cache
+2025-11-06 14:14:38,210 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-11-06 14:14:38,215 - lightrag - INFO - In memory DB persist to disk
+2025-11-06 14:14:38,215 - lightrag - INFO - Completed batch 1 of 1.
+2025-11-06 14:14:38,217 - lightrag - INFO - Document processing pipeline completed
+2025-11-06 14:15:18,698 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:15:18,699 - lightrag - INFO - Process 254892 KV writting 7 records to llm_response_cache
+2025-11-06 14:15:34,884 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:15:34,885 - lightrag - INFO -   Chunk 1/6: extracted 8 entities and 5 relationships (deduplicated)
+2025-11-06 14:15:37,525 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:15:37,526 - lightrag - INFO -   Chunk 2/6: extracted 1 entities and 0 relationships (deduplicated)
+2025-11-06 14:15:39,320 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:15:39,321 - lightrag - INFO - Process 254892 buidling query context...
+2025-11-06 14:15:39,321 - lightrag - INFO - Query nodes: Online payments, E-commerce, Fintech, top_k: 60, cosine: 0.2
+2025-11-06 14:15:48,849 - lightrag - INFO - Process 254892 KV writting 10 records to llm_response_cache
+2025-11-06 14:16:02,646 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:16:02,647 - lightrag - INFO - Process 254892 buidling query context...
+2025-11-06 14:16:02,647 - lightrag - INFO - Query edges: paypal, mania, top_k: 60, cosine: 0.2
+2025-11-06 14:16:12,088 - lightrag - INFO - Process 254892 KV writting 11 records to llm_response_cache
+2025-11-06 14:16:27,728 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:16:27,729 - lightrag - INFO - Process 254892 buidling query context...
+2025-11-06 14:16:27,729 - lightrag - INFO - Query nodes: Online payment system, FOMO (Fear of Missing Out), Technology-driven craze, top_k: 60, cosine: 0.2
+2025-11-06 14:16:36,359 - lightrag - INFO - Query edges: Paypal, Mania, top_k: 60, cosine: 0.2
+2025-11-06 14:16:38,703 - lightrag - INFO - Process 254892 KV writting 12 records to llm_response_cache
+2025-11-06 14:16:38,910 - lightrag - INFO - Creating a new event loop in main thread.
+2025-11-06 14:30:03,835 - lightrag - INFO - Loaded graph from ./dickens\graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-11-06 14:30:03,927 - lightrag - INFO - Process 255588 KV load full_docs with 1 records
+2025-11-06 14:30:03,948 - lightrag - INFO - Process 255588 KV load text_chunks with 6 records
+2025-11-06 14:30:03,970 - lightrag - INFO - Process 255588 KV load llm_response_cache with 12 records
+2025-11-06 14:30:03,988 - lightrag - INFO - Process 255588 doc status load doc_status with 1 records
+2025-11-06 14:30:13,839 - lightrag - INFO - No new unique documents were found.
+2025-11-06 14:30:13,840 - lightrag - INFO - Storage Initialization completed!
+2025-11-06 14:30:13,840 - lightrag - INFO - Processing 1 document(s) in 1 batches
+2025-11-06 14:30:13,841 - lightrag - INFO - Start processing batch 1 of 1.
+2025-11-06 14:30:14,300 - lightrag - INFO - Inserting 1 records to doc_status
+2025-11-06 14:30:14,300 - lightrag - INFO - Process 255588 doc status writting 1 records to doc_status
+2025-11-06 14:30:14,302 - lightrag - INFO - Inserting 6 to chunks
+2025-11-06 14:30:14,305 - lightrag - INFO - Inserting 1 records to full_docs
+2025-11-06 14:30:14,305 - lightrag - INFO - Inserting 6 records to text_chunks
+2025-11-06 14:30:17,945 - lightrag - INFO -   Chunk 1/6: extracted 8 entities and 5 relationships (deduplicated)
+2025-11-06 14:30:17,946 - lightrag - INFO -   Chunk 2/6: extracted 1 entities and 0 relationships (deduplicated)
+2025-11-06 14:30:52,933 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:30:52,935 - lightrag - INFO -   Chunk 3/6: extracted 10 entities and 5 relationships (deduplicated)
+2025-11-06 14:31:07,256 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:31:07,257 - lightrag - INFO -   Chunk 4/6: extracted 15 entities and 4 relationships (deduplicated)
+2025-11-06 14:31:21,845 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:31:21,846 - lightrag - INFO -   Chunk 5/6: extracted 7 entities and 8 relationships (deduplicated)
+2025-11-06 14:32:00,680 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:32:00,681 - lightrag - INFO -   Chunk 6/6: extracted 13 entities and 6 relationships (deduplicated)
+2025-11-06 14:32:00,693 - lightrag - INFO - Extracted 53 entities and 28 relationships (deduplicated)
+2025-11-06 14:32:00,694 - lightrag - INFO - Inserting 53 to entities
+2025-11-06 14:32:14,190 - lightrag - INFO - Inserting 28 to relationships
+2025-11-06 14:32:17,046 - lightrag - INFO - Inserting 1 records to doc_status
+2025-11-06 14:32:17,047 - lightrag - INFO - Process 255588 doc status writting 1 records to doc_status
+2025-11-06 14:32:17,049 - lightrag - INFO - Process 255588 KV writting 1 records to full_docs
+2025-11-06 14:32:17,049 - lightrag - INFO - Process 255588 KV writting 6 records to text_chunks
+2025-11-06 14:32:17,052 - lightrag - INFO - Process 255588 KV writting 16 records to llm_response_cache
+2025-11-06 14:32:17,064 - lightrag - INFO - Writing graph with 63 nodes, 28 edges
+2025-11-06 14:32:17,076 - lightrag - INFO - In memory DB persist to disk
+2025-11-06 14:32:17,076 - lightrag - INFO - Completed batch 1 of 1.
+2025-11-06 14:32:17,077 - lightrag - INFO - Document processing pipeline completed
+2025-11-06 14:32:17,080 - lightrag - INFO - Process 255588 buidling query context...
+2025-11-06 14:32:17,081 - lightrag - INFO - Query nodes: Online payments, E-commerce, Fintech, top_k: 60, cosine: 0.2
+2025-11-06 14:32:19,408 - lightrag - INFO - Local query uses 53 entites, 25 relations, 3 chunks
+2025-11-06 14:33:01,057 - lightrag - INFO - Process 255588 buidling query context...
+2025-11-06 14:33:01,058 - lightrag - INFO - Query edges: paypal, mania, top_k: 60, cosine: 0.2
+2025-11-06 14:33:10,943 - lightrag - INFO - Global query uses 40 entites, 28 relations, 3 chunks
+2025-11-06 14:34:07,589 - lightrag - INFO - Process 255588 buidling query context...
+2025-11-06 14:34:07,589 - lightrag - INFO - Query nodes: Online payment system, FOMO (Fear of Missing Out), Technology-driven craze, top_k: 60, cosine: 0.2
+2025-11-06 14:34:19,037 - lightrag - INFO - Query edges: Paypal, Mania, top_k: 60, cosine: 0.2
+2025-11-06 14:34:21,397 - lightrag - INFO - Global query uses 40 entites, 28 relations, 3 chunks
+2025-11-06 14:34:21,409 - lightrag - INFO - Local query uses 53 entites, 25 relations, 3 chunks
+2025-11-06 14:34:45,596 - lightrag - INFO - Storage Finalization completed!
+2025-11-06 14:35:07,518 - lightrag - INFO - Loaded graph from ./dickens\graph_chunk_entity_relation.graphml with 63 nodes, 28 edges
+2025-11-06 14:35:07,629 - lightrag - INFO - Process 257868 KV load full_docs with 1 records
+2025-11-06 14:35:07,651 - lightrag - INFO - Process 257868 KV load text_chunks with 6 records
+2025-11-06 14:35:07,678 - lightrag - INFO - Process 257868 KV load llm_response_cache with 16 records
+2025-11-06 14:35:07,699 - lightrag - INFO - Process 257868 doc status load doc_status with 1 records
+2025-11-06 14:35:07,710 - lightrag - INFO - Storage Initialization completed!
+2025-11-06 14:38:35,269 - lightrag - INFO - No new unique documents were found.
+2025-11-06 14:38:35,272 - lightrag - INFO - No documents to process
+2025-11-06 14:39:39,155 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:39:39,158 - lightrag - INFO - Process 257868 KV writting 17 records to llm_response_cache
+2025-11-06 14:41:28,248 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:41:28,249 - lightrag - INFO - Process 257868 buidling query context...
+2025-11-06 14:41:28,250 - lightrag - INFO - Query nodes: Global issues, Technological advancements, Sustainability, top_k: 60, cosine: 0.2
+2025-11-06 14:41:38,088 - lightrag - INFO - Local query uses 53 entites, 25 relations, 3 chunks
+2025-11-06 14:41:38,116 - lightrag - INFO - Process 257868 KV writting 18 records to llm_response_cache
+2025-11-06 14:42:20,508 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:42:20,510 - lightrag - INFO - Process 257868 buidling query context...
+2025-11-06 14:42:20,511 - lightrag - INFO - Query edges: Future challenges, Innovation, Sustainability, top_k: 60, cosine: 0.2
+2025-11-06 14:42:30,376 - lightrag - INFO - Global query uses 40 entites, 28 relations, 3 chunks
+2025-11-06 14:42:30,405 - lightrag - INFO - Process 257868 KV writting 19 records to llm_response_cache
+2025-11-06 14:43:31,498 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:43:31,500 - lightrag - INFO - Process 257868 buidling query context...
+2025-11-06 14:43:31,501 - lightrag - INFO - Query nodes: Sustainability, Technology advancements, Economic shifts, Social issues, top_k: 60, cosine: 0.2
+2025-11-06 14:43:41,120 - lightrag - INFO - Query edges: Future challenges, Problems of tomorrow, top_k: 60, cosine: 0.2
+2025-11-06 14:43:43,480 - lightrag - INFO - Global query uses 40 entites, 28 relations, 3 chunks
+2025-11-06 14:43:43,493 - lightrag - INFO - Local query uses 53 entites, 25 relations, 3 chunks
+2025-11-06 14:43:43,532 - lightrag - INFO - Process 257868 KV writting 20 records to llm_response_cache
+2025-11-06 14:47:12,340 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:47:12,343 - lightrag - INFO - Process 257868 buidling query context...
+2025-11-06 14:47:12,344 - lightrag - INFO - Query nodes: Technology enthusiasts, Marketing professionals, Professional roles, top_k: 60, cosine: 0.2
+2025-11-06 14:47:22,114 - lightrag - INFO - Query edges: Nerds, Salesmen, Comparison, top_k: 60, cosine: 0.2
+2025-11-06 14:47:24,458 - lightrag - INFO - Global query uses 40 entites, 28 relations, 3 chunks
+2025-11-06 14:47:24,470 - lightrag - INFO - Local query uses 53 entites, 25 relations, 3 chunks
+2025-11-06 14:47:24,515 - lightrag - INFO - Process 257868 KV writting 21 records to llm_response_cache
+2025-11-06 14:49:34,450 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-11-06 14:49:34,452 - lightrag - INFO - Process 257868 KV writting 22 records to llm_response_cache
