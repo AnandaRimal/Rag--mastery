@@ -45,6 +45,8 @@ Traditional RAG has a critical weakness: **single query blind spots**. If your q
 
 ![RAG Fusion - Query Generation](../images/1.png)
 
+*Image 1: The RAG Fusion pipeline starts by taking a single user query and using an LLM to generate multiple query variations that approach the question from different semantic angles.*
+
 **What's Happening:**
 - **Original Query:** "How does Tesla make money?"
 - **LLM generates variations** that approach the question from different angles:
@@ -98,6 +100,8 @@ Generated Query Variations:
 ### Step 2: Parallel Multi-Vector Search
 
 ![RAG Fusion - Parallel Search](../images/2.png)
+
+*Image 2: Each query variation is independently embedded and searched against the vector database. Documents that appear in multiple search results are strong candidates for relevance.*
 
 **What's Happening:**
 Each query variation is embedded and used to search the vector database independently.
@@ -161,6 +165,8 @@ for query in query_variations:
 
 ![Reciprocal Rank Fusion](../images/3.png)
 
+*Image 3: The RRF algorithm combines multiple ranked lists by assigning scores based on document positions. Documents appearing in multiple searches and at higher positions accumulate higher scores.*
+
 **What's Happening:**
 RRF combines the ranked lists from multiple searches into a single, superior ranking.
 
@@ -212,6 +218,8 @@ RRF(Doc_B) = 1/(60+4)
 ### Step 4: The Complete RRF Algorithm
 
 ![RRF Algorithm Detail](../images/4.png)
+
+*Image 4: Complete visualization of how RRF processes multiple retrieval results. Documents are scored based on their positions across all query variations, with the formula 1/(k+position) applied to each occurrence.*
 
 **Visual Breakdown:**
 
@@ -278,6 +286,8 @@ RRF(Doc_B) = 1/(60+4)
 ### Step 5: Final Context Assembly & Generation
 
 ![RAG Fusion - Final Generation](../images/5.png)
+
+*Image 5: The final step takes the top-ranked documents from RRF fusion and assembles them into a context for the LLM to generate a comprehensive answer. The highest quality, most relevant documents ensure accurate responses.*
 
 **What's Happening:**
 The top-ranked documents from RRF fusion are combined and sent to the LLM for final answer generation.
