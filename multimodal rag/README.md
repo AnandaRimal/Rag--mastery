@@ -9,12 +9,30 @@
 
 ---
 
+## 🏗️ Architecture Diagrams
+
+### High-Level Multimodal RAG Pipeline
+
+![Multimodal RAG Architecture](../images/a.png)
+
+*Figure 1: High-level overview of multimodal RAG pipeline showing document ingestion, element extraction, AI summarization, and retrieval stages*
+
+---
+
+### Complete Implementation Architecture
+
+![Detailed Pipeline](../images/Screenshot%20(41).png)
+
+*Figure 2: Complete multimodal RAG implementation showing Unstructured.io parsing, element categorization (text/tables/images), GPT-4V integration for image understanding, AI-enhanced summary generation, vector storage in Chroma, and multimodal Q&A retrieval. This diagram illustrates the complete flow from PDF input through extraction, processing with vision models, embedding generation, and final retrieval with context-aware responses.*
+
+---
+
 ## 📋 Table of Contents
 
+- [Architecture Diagrams](#-architecture-diagrams)
 - [What is Multimodal RAG?](#-what-is-multimodal-rag)
 - [The Critical Problem](#-the-critical-problem)
 - [Why Most Tutorials Miss This](#-why-most-tutorials-miss-this)
-- [Complete Architecture](#-complete-architecture)
 - [The 4-Stage Pipeline](#-the-4-stage-pipeline)
 - [Implementation Guide](#-implementation-guide)
 - [Advanced Techniques](#-advanced-techniques)
@@ -170,24 +188,6 @@ summary = vision_model.invoke([
 # 4. Index combined content
 # Now images are searchable via their AI descriptions!
 ```
-
----
-
-## 🏗️ Complete Architecture
-
-### Multimodal RAG Pipeline Overview
-
-![Multimodal RAG Architecture](../images/a.png)
-
-*Figure: High-level overview of multimodal RAG pipeline showing document ingestion, element extraction, AI summarization, and retrieval stages*
-
----
-
-### Detailed Architecture Diagram
-
-![Detailed Pipeline](../images/Screenshot%20(41).png)
-
-*Figure: Complete multimodal RAG implementation showing Unstructured.io parsing, element categorization (text/tables/images), GPT-4V integration for image understanding, AI-enhanced summary generation, vector storage in Chroma, and multimodal Q&A retrieval*
 
 ---
 
